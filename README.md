@@ -59,8 +59,8 @@ On iOS 10, you can use `barColor` and `controlTintColor` as well
 ## 3. Installation
 To install the plugin with the Cordova CLI from npm:
 
-```
-$ cordova plugin add cordova-plugin-safariviewcontroller
+```bash
+cordova plugin add cordova-plugin-safariviewcontroller
 ```
 
 *Note*: the plugin requires Cordova Android 7.0.0 or later.
@@ -72,8 +72,8 @@ Since SafariViewController is new in iOS9 you need to have a fallback for older 
 so if `available` returns false (see the snippet below) you want to open the URL in the InAppBrowser probably,
 so be sure to include that plugin as well:
 
-```
-$ cordova plugin add cordova-plugin-inappbrowser
+```bash
+cordova plugin add cordova-plugin-inappbrowser
 ```
 
 I'm not including it as a dependency as not all folks may have this requirement.
